@@ -1,0 +1,48 @@
+
+
+
+.fondo_req_form { background-image: url("../images/fondoquienessomos.jpg"); background-size: cover; }
+.cont_contacto { background:rgba(255,255,255,0.8); margin: 40px 0px; vertical-align: top; display: inline-block; padding: 20px; width: 100%; max-width: 450px; height: auto; overflow: hidden; }
+.title_contacto { 
+	color: #70141F;
+	text-align: center;	
+    font-size: 24px;
+}
+.contacto-datos  p { line-height: 0.4; font-size: 15px; color: #70141F; text-align: center; }
+.req_form { overflow: hidden; border: solid 1px gray; padding: 14px; margin: 0 auto; position: relative;}
+.req_form label { margin-bottom: 8px; color: #70141F; font-size: 16px; float: left;  }
+.req_form input, .req_form select, .req_form textarea  { padding: 6px;  width: 100%; border: solid 1px silver; background-color: transparent; }
+.req_form select:hover { background-color: #EFEBE9; border: solid 1px #5F5C5C; }
+.req_form option { padding-left: 6px; background-color: white; }
+.req_form input:hover { border: solid 1px #5F5C5C; background-color: #EFEBE9; }
+.req_form textarea:hover { border: solid 1px #5F5C5C; background-color: #EFEBE9; }
+.campo-tipo-texto, .campo-tipo-selector 
+{
+min-width: 170px;
+display: inline-block;
+margin: 0 6px;
+width: 100%;
+}
+.campo-tipo-textarea
+{
+	min-width: 300px;
+	margin: 0 6px;
+	width: 100%;
+}
+.campo-tipo-textarea textarea
+{
+	min-height: 100px;
+}
+.acciones-form .link_enviar {  
+	background-image: linear-gradient(bottom, rgb(189,189,189) 0%, rgb(255,255,255) 50%, rgb(184,184,184) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(189,189,189) 0%, rgb(255,255,255) 50%, rgb(184,184,184) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(189,189,189) 0%, rgb(255,255,255) 50%, rgb(184,184,184) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(189,189,189) 0%, rgb(255,255,255) 50%, rgb(184,184,184) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(189,189,189) 0%, rgb(255,255,255) 50%, rgb(184,184,184) 100%);
+	margin-top: 23px;  width:100%; font-size: 16px; color: #70141F; text-decoration: none; background-color: silver; font-family: sans-serif; text-align: center; border-radius: 3px 3px 3px 3px;
+}
+
+#mensaje-error-dato
+{
+	margin-top: 22px; font-size: 16px; color: #F6821F;
+}

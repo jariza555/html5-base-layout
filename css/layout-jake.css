@@ -1,0 +1,340 @@
+/*  Base para fuente integrada desde directorio  */
+/*@font-face {
+  font-family: 'entypo-selected';
+  src: url("font/entypo-selected.eot");
+  src:
+    url("font/entypo-selected.eot?#iefix") format('embedded-opentype'),
+    url("font/entypo-selected.woff") format('woff'),
+    url("font/entypo-selected.ttf") format('truetype'),
+    url("font/entypo-selected.svg#entypo-selected") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+body, body.body-inicio
+{
+    font-family: 'Raleway', 'Arial', sans-serif;/*Variable SASS*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-weight: 300;
+    color: #575757;/*Variable SASS*/
+    background-color: #FDF3E4;/*Variable SASS*/
+    margin: 0;
+    /* background: #fff, url(../images/bg-body.jpg) center 0 repeat #ecebe3; */ /*Variable SASS*/
+}
+header#header-jake
+{
+    background-color: olive;/*Variable SASS*/
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+div#header-inicial  /*SASS Tamanio objeto especifico de header*/
+{
+/*Variable SASS*/
+}
+div#header-medio  /*SASSTamanio objeto especifico de header*/
+{
+/*Variable SASS*/
+}
+div#header-final  /*SASSTamanio objeto especifico de header*/
+{
+/*Variable SASS*/
+}
+div#main-jake,
+div#contenedor-elementos-header,
+div#contenedor-elementos-footer
+{
+    margin: 0 auto;
+    max-width: 1024px;/*Variable SASS*/
+    width: 100%;
+    text-align: center;
+}
+div#contenedor-elementos-header
+{
+    padding: 5px 0px;
+}
+div#main-jake /* color documento general*/
+{
+    background-color: red;
+    /*border-top: solid 2px red*/
+    /*border-bottom: solid 2px red*/
+}
+div#main-jake section /* color documento por secciones*/
+{
+    background-color: green;
+}
+.support-note span
+{
+    color: #e07870;
+    font-size: 16px;
+    display: none;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 0;
+    text-shadow:  1px 1px 1px rgba(0,0,0,0.3);
+    display: block;
+}
+div#home-slideshow
+{
+    /*background-image: url(../images/slideshow.png);
+    background-size: contain;
+    background-repeat: no-repeat;*/
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    margin: 40px 0px;
+}
+.linea-estilo-separador
+{
+    height: 1px;
+    display: block;
+    background-color: silver;
+    margin: 25px 0px;
+}
+div.logo-cabeza
+{
+    width: 320px;
+    display: inline-block;
+}
+.txt-logo
+{
+    font-size: 25px;    /*Variable SASS*/
+    color:#FF3400;  /*Variable SASS*/
+    margin-top: 30px;
+    font-weight: bold;  /*Variable SASS*/
+    font-style: italic;
+    font-family: arial; /*Variable SASS*/
+}
+.eslogan
+{
+    font-size: 16px;
+    color: rgb(214, 171, 0);    /*Variable SASS*/
+    display: block;
+    margin: 0 auto;
+}
+div.boton-simple a
+{
+    display: block;
+    font-size: 16px;    /*Variable SASS*/
+    line-height: 18px;
+    padding: 10px;  /*Variable SASS*/
+    color: #6c6a57; /*Variable SASS*/
+    font-weight: bold;  /*Variable SASS*/
+    position: relative;
+    z-index: 3;
+    text-decoration: none;
+    background-color: silver;   /*Variable SASS*/
+}
+div.boton-simple a:hover
+{
+    color: white;   /*Variable SASS*/
+    z-index: 10;
+    position: initial;
+    background-color: black;    /*Variable SASS*/
+}
+article.servicio-cuadro
+{
+    padding: 8px;
+    display: inline-block;
+    width: 240px;   /*Variable SASS*/
+    height: auto;
+    margin: 0px 0px 30px 0px;   /*Variable SASS*/
+    vertical-align: top;
+}
+article.bloque-servicio
+{
+    width: 250px;   /*Variable SASS*/
+    display: inline-block;
+    margin: 30px 20px;  /*Variable SASS*/
+    vertical-align: top;
+}
+article.bloque-servicio img,
+article.bloque-servicio h3,
+article.bloque-servicio a,
+article.servicio-cuadro img,
+article.servicio-cuadro h3,
+article.servicio-cuadro a
+{
+    text-align: center;
+}
+section.contenido-de-primer-nivel .bloque-imagen.anim-return.odd
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 230px;   /*Variable SASS*/
+    height: 330px;  /*Variable SASS*/
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/page1_pic1.jpg);    /*Variable SASS*/
+    cursor: pointer;
+}
+section.contenido-de-primer-nivel .bloque-imagen.anim-return.even
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 230px;/*Variable SASS*/
+    height: 330px;/*Variable SASS*/
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/page1_pic2.jpg);/*Variable SASS*/
+    cursor: pointer;
+}
+section.contenido-de-primer-nivel .bloque-imagen.odd:hover
+{
+    background-image: url(../images/page1_pic3.jpg);
+}
+section.contenido-de-primer-nivel .bloque-imagen.even:hover
+{
+    background-image: url(../images/page1_pic4.jpg);
+}
+ul.navegacion-cabecera
+{
+
+}
+ul.navegacion-cabecera li
+{
+    display: inline-block;
+    margin: 5px 5px;
+}
+ul.navegacion-cabecera li a
+{
+    color: white;/*Variable SASS*/
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;/*Variable SASS*/
+    background-color: rgb(134, 134, 134);/*Variable SASS*/
+    width: auto;
+}
+ul.navegacion-cabecera li a:hover
+{
+    background-color: orange;/*Variable SASS*/
+}
+.vista-objeto
+{
+    font-size: 18px;/*Variable SASS*/
+    margin: 25px;
+}
+section.contenido-de-primer-nivel,
+section.contenido-de-tercer-nivel,
+section.contenido-de-cuarto-nivel,
+section.contenido-de-quinto-nivel
+{
+    text-align: center;
+}
+hgroup h1.titulo-tematico-principal   /*Encabezado principal de pagina*/
+{
+    color: white;/*Variable SASS*/
+    font-size: 18px;/*Variable SASS*/
+    background-color: purple;
+    margin: 0;
+    padding: 23px 0px 12px 0px;
+}
+hgroup h2.declaracion-tema
+{
+    font-weight: normal;/*Variable SASS*/
+    font-size: 16px;/*Variable SASS*/
+}
+h2.titulo-tematico-especifico
+{
+    color: white;/*Variable SASS*/
+    font-weight: normal;/*Variable SASS*/
+    font-size: 16px;/*Variable SASS*/
+    background-color: purple;/*Variable SASS*/
+    font-style: normal; /*Variable SASS*/
+    padding: 10px 0px 10px 0px; /*Variable SASS*/
+    margin: 0;
+}
+article .contenido-bloque-articulo h3.titulo-tematico-especifico
+{
+    color: black;/*Variable SASS*/
+    font-weight: bold;/*Variable SASS*/
+    font-size: 16px;/*Variable SASS*/
+    font-style: normal; /*Variable SASS*/
+}
+article .contenido-bloque-articulo p
+{
+    text-align: left;
+}
+section.contenido-de-segundo-nivel
+{
+    text-align: center;
+}
+aside.contenido-segundo-plano
+{
+    width: 330px;
+    display: inline-block;
+    height: auto;
+    padding: 20px 5px;
+    background: olive;
+    border-radius: 115px 0px;
+    box-shadow: inset 1px 1px 25px rgb(126, 83, 54);
+    vertical-align: top;
+    margin-top: 25px;
+}
+footer#footer-jake
+{
+    background-color: olive;/*Variable SASS*/
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+div#footer-inicial, /*SASS Tamanio contenedores especificos de footer*/
+div#footer-medio,
+div#footer-final
+{
+    width: 50%; /*Variable SASS*/
+    min-width: 250px; /*Variable SASS*/
+    max-width: 350px; /*Variable SASS*/
+    margin: 0px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+ul.navegacion-footer li
+{
+    text-align: center;
+    list-style: none;
+    border-bottom: solid 1px white;
+}
+ul.navegacion-footer li a
+{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+    padding: 6px 0px;/*Variable SASS*/
+}
+ul.navegacion-footer li a:hover
+{
+    color: white;
+}
+div#footer-copyright
+{
+    background-color: black;/*Variable SASS*/
+    padding: 1px 0px 10px 0px;
+}
+div#footer-copyright p
+{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 10px;
+    color: wheat;/*Variable SASS*/
+}
+div#footer-copyright a
+{
+    color: wheat;/*Variable SASS*/
+    text-decoration: none;
+}
+div#footer-copyright a:hover
+{
+    color: white;/*Variable SASS*/
+}
